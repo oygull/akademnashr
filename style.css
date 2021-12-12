@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/RobotoCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/RobotoCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-style: 'Roboto', 'Arial', sans-serif;
+}
+.header{
+    display: flex;
+}
+.navbarList{
+    display: flex;
+    list-style: none;
+}
+.navListItem{
+    margin: 39px 32px 38px 0px;
+}
+.navListLinks{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.navListLinks:hover {
+    color: #FF7500;
+  }
+ 
+.headerLogo{
+    margin: 16px 203px 16px 170px;
+}
+.navButton{
+     height: 39px;
+    background-color: #FF7500;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin: 30px 170px 26px 10px;
+    cursor: pointer;
+}
+.navButton:hover{
+    background-color: #ff9f4b;;
+}
+.webTitle{
+    height: 488px;
+    background-color: #252420;
+    display: flex;
+}
+.titleLine{
+    margin: 80px 510px 40px 170px;
+}
+.titleHeading{
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin: 0px 251px 24px 170px;
+    width: 339px;
+    height: 96px;
+}
+.titleText{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    width: 387px;
+    height: 96px;
+    margin: 0px 203px 44px 170px;
+}
+.titleButton{
+    background-color: #FF7500;
+    opacity: 0.6;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    margin: 0px 118px 78px 170px;
+    cursor: pointer;   
+}
+.titleImage{
+    margin: 40px 150px 0px 13px;
+    width: 510px;
+    height: 510px;
+}
+.titleImageIcon{
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 117, 0, 0.2);
+    border-radius: 100%;
+margin: 0PX 280PX 32px 0px;
+}
+.titleIcon{
+    width: 44px;
+    height: 44px;
+    margin: 27px;
+}
+.aboutSectionList{
+    display: flex;
+list-style: none;
+margin: 0px 170px;
+}
+.aboutMainHeading{
+    font-family: 'Roboto Condensed';
+font-weight: bold;
+font-size: 72px;
+line-height: 120%;
+letter-spacing: 0.5px;
+color: #000000;
+width: 435px;
+height: 172px;
+margin: 0px 800px 72px 170px;
+}
+.titleLine2{
+    margin: 190px 0px 24px 170px;
+}
+.aboutHeading{
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #000000;
+    margin: 0px 160px 12px 0px;
+}
+.aboutText{
+    width: 334px;
+    height: 72px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #000000;
+    margin: 0px 60px 210px 0px;
+}
+.books{
+    background: #252420;
+    border-radius: 12px;
+    width: 1100px;
+    height: 419px;
+    margin: 85px 170px 160px 170px;
+    display: flex;
+}
+.booksTitle{
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin: 64px 159px 24px 64px;
+}
+.booksText{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin: 0px 92px 12px 64px;
+}
+.booksText2{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin: 0px 92px 24px 64px;
+}
+.highlighted{
+    color: #FF7500;
+}
+.booksButton{
+    padding: 12px 24px;
+    background-color: #FF7500;
+    border-radius: 4px;
+    margin: 0px 360px 64px 64px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.booksButton:hover{
+    background-color: #ff9f4b;;
+}
+.booksImg{
+    margin: -45px 64px 64px 0px;
+    width: 440px;
+    height: 440px;
+}
+footer{
+    background-color: #F8F8F8;
+}
+.footerMain{
+    display: flex;
+}
+.navLogo{
+    margin: 56px 767px 40px 170px;
+}
+.navIcons{
+    margin: 74px 16px 58px 0px;
+    width: 24px;
+    height: 24px;
+}
+.navIcons:hover{
+    width: 30px;
+    height: 30px;
+}
+
+.footerUl{
+    list-style: none;
+
+}
+.footerNav{
+    display: flex;
+    padding: 64px 170px;
+}
+.footerLine{
+    width: 1100px;
+    height: 2px;
+    margin: 0px 170px;
+}
+.footerListLinks{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #252420;
+    text-decoration: none;
+}
+.footerListItem{
+    margin: 16px 98px 6px 0px;
+    width: 224px;
+    height: 19px;
+}
+.footerListLinks:hover{
+    color: #FF7500;
+}
